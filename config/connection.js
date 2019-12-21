@@ -8,7 +8,9 @@ if (process.env.JAWSDB_URL) {
     host: 'localhost',
     user: 'root',
     password:"Bootcamps09!",
-    database: "burgers_db"
+    database: "burgers_db",
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
   });
 };
 
